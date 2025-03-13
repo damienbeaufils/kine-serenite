@@ -20,7 +20,7 @@
                 >
                 <ul class="no-bullets">
                   <li class="font-weight-bold">
-                    Mardi - 13h00 à 19h30 (dernier massage à 18h30)
+                    Mardi - 13h00 à 19h15 (dernier massage à 18h15)
                   </li>
                   <li class="font-weight-bold">
                     Vendredi - 09h00 à 12h00, un vendredi sur deux
@@ -35,6 +35,10 @@
                 >
                 <ul class="no-bullets">
                   <li>60 minutes - 80 $</li>
+                  <li class="font-italic">
+                    mise à jour tarifaire au 1er juin 2025 : le soin passera à
+                    <span class="font-weight-bold">85 $</span>
+                  </li>
                 </ul>
               </div>
               <div class="mt-3">
@@ -56,6 +60,7 @@
                 <a href="mailto:virginiedang.massotherapeute@gmail.com"
                   >contactez-moi par courriel</a
                 >
+                (non disponible pour le moment)
               </p>
               <address>
                 <p>2 rue Beauregard, Clermont, QC G4A&nbsp;0A2</p>
