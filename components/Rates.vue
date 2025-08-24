@@ -34,11 +34,7 @@
                   >Tarifs :</span
                 >
                 <ul class="no-bullets">
-                  <li>60 minutes - 80 $</li>
-                  <li class="font-italic">
-                    mise à jour tarifaire au 1er juin 2025 : le soin passera à
-                    <span class="font-weight-bold">85 $</span>
-                  </li>
+                  <li>60 minutes - 85 $</li>
                 </ul>
               </div>
               <div class="mt-3">
