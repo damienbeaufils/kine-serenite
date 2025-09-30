@@ -20,11 +20,13 @@
                 >
                 <ul class="no-bullets">
                   <li class="font-weight-bold">
-                    Mardi - 13h00 à 19h15 (dernier massage à 18h15)
+                    Mardi - 10h00 à 17h30 (dernier massage à 16h30)
                   </li>
+                  <!--
                   <li class="font-weight-bold">
                     Vendredi - 09h00 à 12h00, un vendredi sur deux
                   </li>
+                  -->
                   <li>Pas de rendez-vous de dernière minute</li>
                 </ul>
               </div>
