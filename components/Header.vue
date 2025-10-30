@@ -21,16 +21,20 @@
     <v-spacer></v-spacer>
 
     <div class="d-none d-sm-none d-md-none d-lg-flex">
-      <v-btn text href="/#mission" class="mr-5 custom-color-green white--text">
-        Ma mission
+      <v-btn text nuxt to="/" class="mr-5 custom-color-green white--text">
+        Accueil
       </v-btn>
 
-      <v-btn text href="/#soins" class="mr-5 custom-color-green white--text">
-        Soins
+      <v-btn
+        text
+        href="/#techniques"
+        class="mr-5 custom-color-green white--text"
+      >
+        Détail des techniques
       </v-btn>
 
-      <v-btn text href="/#soins" class="mr-5 custom-color-green white--text">
-        Horaires, tarifs & adresse
+      <v-btn text href="/#a-propos" class="mr-5 custom-color-green white--text">
+        À propos
       </v-btn>
 
       <v-btn
@@ -52,22 +56,22 @@
       <v-list>
         <v-list-item>
           <v-list-item-title>
-            <v-btn text href="/#mission" class="custom-color-green--text">
-              Ma mission
+            <v-btn text nuxt to="/" class="custom-color-green--text">
+              Accueil
             </v-btn>
           </v-list-item-title>
         </v-list-item>
         <v-list-item>
           <v-list-item-title>
-            <v-btn text href="/#services" class="custom-color-green--text">
-              Soins
+            <v-btn text href="/#techniques" class="custom-color-green--text">
+              Détail des techniques
             </v-btn>
           </v-list-item-title>
         </v-list-item>
         <v-list-item>
           <v-list-item-title>
-            <v-btn text href="/#horaires" class="custom-color-green--text">
-              Horaires, tarifs & adresse
+            <v-btn text href="/#a-propos" class="custom-color-green--text">
+              À propos
             </v-btn>
           </v-list-item-title>
         </v-list-item>

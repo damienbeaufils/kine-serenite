@@ -1,96 +1,144 @@
 <template>
-  <v-card id="horaires" class="text-center">
-    <v-card-title class="custom-color-green white--text justify-center">
-      <h2 class="text-h5 text-sm-h4">Horaires, tarifs & adresse</h2>
-    </v-card-title>
-    <v-card-text class="custom-color-green--text">
-      <v-row>
-        <v-col cols="12" sm="6">
-          <v-card class="custom-color-light-grey mt-10">
-            <v-card-title
-              class="justify-center custom-color-green mx-5 mx-sm-15 white--text font-weight-bold card-header rounded py-2"
-            >
-              Sur rendez-vous uniquement
-            </v-card-title>
+  <div>
+    <v-card class="custom-color-light-grey mt-10">
+      <v-card-title
+        class="justify-center custom-color-green mx-5 mx-sm-15 white--text font-weight-bold card-header rounded py-2"
+      >
+        Spécialisation et tarif
+      </v-card-title>
 
-            <v-card-subtitle class="custom-color-green--text text-center">
-              <div>
-                <span class="font-weight-bold text-decoration-underline"
-                  >Horaires :</span
-                >
-                <ul class="no-bullets">
-                  <li class="font-weight-bold">
-                    Mardi - 10h00 à 17h30 (dernier massage à 16h30)
-                  </li>
-                  <!--
-                  <li class="font-weight-bold">
-                    Vendredi - 09h00 à 12h00, un vendredi sur deux
-                  </li>
-                  -->
-                  <li>Pas de rendez-vous de dernière minute</li>
-                </ul>
-              </div>
+      <v-card-subtitle
+        class="custom-color-green--text text-center font-weight-bold mt-1"
+      >
+        Massothérapie et kinésithérapie
+        <br />
+        Massage thaïlandais sur table allié à des techniques de massage suédois
+        et tissus profonds.
+      </v-card-subtitle>
 
-              <div class="mt-3">
-                <span class="font-weight-bold text-decoration-underline"
-                  >Tarifs :</span
-                >
-                <ul class="no-bullets">
-                  <li>60 minutes - 85 $</li>
-                </ul>
-              </div>
-              <div class="mt-3">
-                <span class="font-weight-bold text-decoration-underline"
-                  >Modes de paiement :</span
-                >
+      <v-card-text class="custom-color-green--text text-center">
+        <p class="text-decoration-underline">
+          Rendez-vous de 60 minutes uniquement : 85$
+        </p>
+        <p class="font-italic">
+          Reçus disponibles en massothérapie, kinésithérapie et orthothérapie
+          pour fins d’assurances
+        </p>
+        <p>
+          <a
+            href="https://rmpq.ca/repertoire-des-membres/clermont/virginie-dang-778809/"
+            target="_blank"
+          >
+            <v-img
+              src="/img/rmpq.jpg"
+              alt="Membre du Réseau des massothérapeutes professionnels du Québec (RMPQ)"
+              max-width="500"
+              class="mx-auto"
+            ></v-img>
+          </a>
+        </p>
+      </v-card-text>
+    </v-card>
 
-                <p>
-                  Paiement par carte de débit, virement Interac ou argent
-                  comptant sont préférables. Carte de crédit également acceptée.
-                </p>
-              </div>
-            </v-card-subtitle>
+    <v-row>
+      <v-col cols="12" sm="6">
+        <v-card class="custom-color-light-grey mt-10">
+          <v-card-title
+            class="justify-center custom-color-green mx-5 mx-sm-15 white--text font-weight-bold card-header rounded py-2"
+          >
+            Lundi, mercredi, jeudi
+          </v-card-title>
 
-            <v-card-text class="custom-color-green--text justify-center">
-              <p class="font-weight-bold">
-                Pour un premier rendez-vous, svp téléphonez au
-                <a href="tel:4187901294">418-790-1294</a> ou
-                <a href="mailto:virginiedang.massotherapeute@gmail.com"
-                  >contactez-moi par courriel</a
-                >
-                (non disponible pour le moment)
-              </p>
-              <address>
-                <p>2 rue Beauregard, Clermont, QC G4A&nbsp;0A2</p>
-              </address>
-            </v-card-text>
+          <v-card-subtitle
+            class="custom-color-green--text text-center font-weight-bold text-decoration-underline mt-1"
+          >
+            Clinique de physiothérapie France Roy
+          </v-card-subtitle>
 
-            <v-card-actions class="justify-center">
-              <v-btn
-                text
-                class="custom-color-grey black--text pa-sm-7 mb-2 font-weight-bold text-sm-h6 text-subtitle-2"
+          <v-card-text
+            class="custom-color-green--text justify-center text-center pb-0"
+          >
+            <p>
+              425 Bd de Comporté, La Malbaie, QC G5A 1W5
+              <br />
+              <a
+                class="text-decoration-underline"
+                href="https://www.physiotherapiefranceroy.com/"
+                target="_blank"
+                >physiotherapiefranceroy.com</a
+              >
+            </p>
+
+            <p>
+              <span class="font-weight-bold">Horaires :</span>
+              <br />
+              Lundi & mercredi - 14h30 à 19h45 (dernier à 18h45)
+              <br />
+              Jeudi - 09h30 à 14h45 (dernier à 13h45)
+            </p>
+          </v-card-text>
+
+          <v-card-actions
+            class="custom-color-green--text justify-center text-center pb-2"
+          >
+            <p>
+              <span class="font-weight-bold">Prendre rendez-vous :</span>
+              <br />
+              Appelez au <a href="tel:4186653980">(418) 665-3980</a> directement
+              à la clinique de physiothérapie pour un rendez-vous.
+            </p>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+
+      <v-col cols="12" sm="6">
+        <v-card class="custom-color-light-grey mt-5 mt-sm-10">
+          <v-card-title
+            class="justify-center custom-color-green mx-5 mx-sm-15 white--text font-weight-bold card-header rounded py-2"
+          >
+            Mardi
+          </v-card-title>
+
+          <v-card-subtitle class="custom-color-green--text text-center mt-1">
+            <p class="font-weight-bold text-decoration-underline mb-3">
+              Je pratique chez nous les mardis.
+            </p>
+            <p class="font-weight-bold red--text mb-2">
+              Non adapté pour les personnes à mobilité réduite
+            </p>
+          </v-card-subtitle>
+
+          <v-card-text
+            class="custom-color-green--text justify-center text-center pb-0"
+          >
+            <p>2 rue Beauregard, Clermont, QC G4A 0A2</p>
+            <p>
+              <span class="font-weight-bold">Horaires :</span>
+              <br />
+              Mardi - 09h00 à 17h30 (dernier à 16h30)
+            </p>
+          </v-card-text>
+
+          <v-card-actions
+            class="custom-color-green--text justify-center text-center pb-2"
+          >
+            <p>
+              <span class="font-weight-bold">Prendre rendez-vous :</span>
+              <br />
+              Appelez au <a href="tel:4187901294">(418) 790-1294</a> ou sur
+              Gorendezvous :
+              <a
+                class="text-decoration-underline"
                 href="https://www.gorendezvous.com/virginiedang"
                 target="_blank"
+                >gorendezvous.com/virginiedang</a
               >
-                Prendre rendez-vous
-              </v-btn>
-            </v-card-actions>
-          </v-card>
-        </v-col>
-
-        <v-col cols="12" sm="6" class="map">
-          <iframe
-            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCNsDQVC0fSNhGNPsppuAotr38HuU5Hgqk&q=Virginie Dang Massothérapeute, Kinésithérapeute, Orthothérapeute, 2 Rue Beauregard, Clermont, QC G4A 0A2, Canada"
-            frameborder="0"
-            scrolling="no"
-            width="100%"
-            height="300"
-          >
-          </iframe>
-        </v-col>
-      </v-row>
-    </v-card-text>
-  </v-card>
+            </p>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+    </v-row>
+  </div>
 </template>
 
 <script lang="ts"></script>

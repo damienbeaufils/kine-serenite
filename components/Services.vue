@@ -1,7 +1,7 @@
 <template>
-  <v-card id="soins" class="text-center">
+  <v-card id="techniques" class="text-center">
     <v-card-title class="custom-color-green white--text justify-center pa-5">
-      <h1 class="text-h5 text-sm-h4">Soins</h1>
+      <h1 class="text-h5 text-sm-h4">Détail des techniques</h1>
     </v-card-title>
     <v-card-text class="custom-color-green--text pa-5">
       <v-row justify="center">
@@ -10,7 +10,7 @@
             <v-card-text
               class="custom-color-green--text custom-color-pink text-h6 text-sm-h5 text-center font-weight-bold font-italic cursive"
             >
-              Je vous concocte un soin sur-mesure, adapté à vos besoins.
+              Je vous concocte un soin sur-mesure alliant toutes ces techniques.
             </v-card-text>
           </v-card>
         </v-col>
@@ -134,28 +134,28 @@
           </v-hover>
         </v-col>
 
-        <!--
         <v-col cols="12" sm="4">
           <v-hover v-slot="{ hover }">
             <v-card flat :elevation="hover ? 12 : 0">
               <v-card-text class="custom-color-green--text">
                 <v-img
-                  src="/img/services/soin_anti_cellulite.jpg"
+                  src="/img/services/massage_thailandais.jpg"
                   alt=""
                   class="d-flex rounded"
                   :aspect-ratio="1920 / 1280"
                 ></v-img>
 
-                <h3 class="mt-2">Soin anti-cellulite</h3>
+                <h3 class="mt-2">Massage thaïlandais sur table</h3>
               </v-card-text>
             </v-card>
           </v-hover>
         </v-col>
-        -->
       </v-row>
     </v-card-text>
   </v-card>
 </template>
+
+<script lang="ts"></script>
 
 <style scoped>
 .cursive {

@@ -43,11 +43,6 @@
           </p>
 
           <p>
-            La durée idéale pour profiter pleinement de ce soin est de 90
-            minutes.
-          </p>
-
-          <p>
             <b
               >Sachez que je m’adapte en fonction de vos besoins ! Ce soin est
               donc <u>personnalisable</u>.</b

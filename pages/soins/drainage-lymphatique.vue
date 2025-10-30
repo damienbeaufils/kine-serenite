@@ -24,7 +24,6 @@
             ganglionnaire est stimulé et par la suite, la lymphe est chassée
             vers le trajet du flux lymphatique.
           </p>
-          <p><b>La durée d'une séance varie de 60 à 90 minutes.</b></p>
           <p>
             Le thérapeute découvre la zone à traiter et exécute une série de
             mouvements lents et doux, <b>semblables à l'effet d'une vague</b>,
