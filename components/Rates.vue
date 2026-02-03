@@ -20,6 +20,10 @@
         <p class="text-decoration-underline">
           Rendez-vous de 60 minutes uniquement : 85$
         </p>
+        <p>
+          Mise à jour tarifaire au 1er mars 2026 : le soin passera à
+          <span class="font-weight-bold">90 $</span>
+        </p>
         <p class="font-italic">
           Reçus disponibles en massothérapie, kinésithérapie et orthothérapie
           pour fins d’assurances
