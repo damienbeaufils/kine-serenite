@@ -10,7 +10,9 @@
 
     <div class="ml-5">
       <nuxt-link to="/">
-        <span class="custom-color-pink--text text-h5">Virginie Dang</span>
+        <span class="custom-color-yellow--text font-weight-bold text-h5"
+          >Virginie Dang</span
+        >
         <br />
         <span class="custom-color-green--text text-body-1"
           >Massothérapeute,<br />Kinésithérapeute,<br />Orthothérapeute</span

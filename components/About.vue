@@ -39,42 +39,31 @@
               </p>
 
               <p>
-                Si vous me demandez quel type de massage je donne :
-                <b>le massage professionnel Virginie !</b> Chaque massage est
-                unique, car je me fie à mon intuition et à vos besoins du
-                moment.
-                <b
-                  ><u
-                    >Toutefois, il y aura une prédominance pour des techniques
-                    de massage thaïlandais sur table</u
-                  ></b
-                >
-                (<i
-                  >si vous souhaitez l’expérimenter dans son authenticité, cela
-                  se fait sur vêtements souples de type sport</i
-                >).
+                Mes soins se caractérisent par des
+                <b>massages délicats et adaptés</b> alliés à des
+                <b>mobilisations douces</b> - des mouvements guidés de vos bras,
+                vos jambes ou vos articulations - visant à préserver la
+                souplesse, encourager le mouvement et relâcher les tensions.
               </p>
+              <p>
+                Le but est de préserver votre autonomie de mouvement le plus
+                longtemps possible et de vous déposer, juste le temps du soin.
+              </p>
+
               <h3 class="custom-color-green--text my-5">
                 > Quelle est ma mission ?
               </h3>
 
               <p>
-                <b
-                  >Vous accompagner si vous souffrez de maux causés par des
-                  blessures physiques ou psychologiques vers votre plein
-                  potentiel.</b
-                >
+                Mes mains sont le prolongement de mon cœur, ce lieu où je me
+                sens chez moi. À travers elles, j’aimerais vous offrir un peu de
+                réconfort, d’apaisement et un espace pour vous reconnecter à
+                vous-même.
               </p>
-
               <p class="mb-0">
-                Si vous avez besoin
-                <b
-                  >d’un travail en profondeur sur le relâchement de vos tensions
-                  musculaires tout en cherchant à calmer votre système
-                  nerveux</b
-                >
-                — que vous soyez sportif(ve), stressé(e) ou anxieux(se) — je
-                peux vous accompagner avec une approche adaptée à ces besoins.
+                Je veux alors vous offrir un moment de répit où le corps est
+                accompagné dans le mouvement, afin de préserver l’autonomie avec
+                douceur et bienveillance.
               </p>
             </v-card-text>
           </v-card>
@@ -84,6 +73,11 @@
         <v-card-text class="custom-color-green--text">
           <h3 class="custom-color-green--text my-5">> Mes formations :</h3>
           <ul>
+            <li>
+              <i>En cours jusqu’à novembre 2026</i> - Formation Masso-Oncologie
+              Chrysalide, École de massothérapie et kinésithérapie l'Hêtre, 160h
+              – 2026
+            </li>
             <li>
               Formation Massage Thaïlandais sur table, École de massothérapie et
               kinésithérapie l'Hêtre, 35h – 2025

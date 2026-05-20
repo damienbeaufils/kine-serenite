@@ -8,7 +8,7 @@
         <v-col cols="12">
           <v-card rounded>
             <v-card-text
-              class="custom-color-green--text custom-color-pink text-h6 text-sm-h5 text-center font-weight-bold font-italic cursive"
+              class="custom-color-green--text custom-color-yellow text-h6 text-sm-h5 text-center font-weight-bold font-italic cursive"
             >
               Je vous concocte un soin sur-mesure alliant toutes ces techniques.
             </v-card-text>
@@ -24,18 +24,18 @@
             <v-card
               flat
               nuxt
-              to="/soins/massage-anti-stress/"
+              to="/soins/massage-de-repit/"
               :elevation="hover ? 12 : 0"
             >
               <v-card-text class="custom-color-green--text">
                 <v-img
-                  src="/img/services/massage_anti-stress.jpg"
+                  src="/img/services/massage_de_repit.jpg"
                   alt=""
                   class="d-flex rounded"
                   :aspect-ratio="1920 / 1280"
                 ></v-img>
 
-                <h3 class="mt-2">Massage anti-stress</h3>
+                <h3 class="mt-2">Massage de répit<br />(à domicile)</h3>
               </v-card-text>
             </v-card>
           </v-hover>

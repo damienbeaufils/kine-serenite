@@ -66,7 +66,6 @@
             <li>
               Pour les personnes qui préfèrent recevoir des soins habillés.
             </li>
-            <li>Pour changer les</li>
           </ul>
         </v-col>
 
@@ -74,7 +73,7 @@
           <v-btn
             href="https://www.gorendezvous.com/virginiedang"
             target="_blank"
-            class="custom-color-pink custom-color-green--text my-3 pa-7 px-sm-15 font-weight-bold text-sm-h6 text-subtitle-1"
+            class="custom-color-yellow custom-color-green--text my-3 pa-7 px-sm-15 font-weight-bold text-sm-h6 text-subtitle-1"
           >
             Prendre rendez-vous
           </v-btn>

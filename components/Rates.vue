@@ -4,26 +4,191 @@
       <v-card-title
         class="justify-center custom-color-green mx-5 mx-sm-15 white--text font-weight-bold card-header rounded py-2"
       >
-        Spécialisation et tarif
+        Spécialisation
       </v-card-title>
 
       <v-card-subtitle
-        class="custom-color-green--text text-center font-weight-bold mt-1"
+        class="custom-color-green--text text-center font-weight-bold mt-1 text-decoration-underline"
       >
-        Massothérapie et kinésithérapie
-        <br />
-        Massage thaïlandais sur table allié à des techniques de massage suédois
-        et tissus profonds.
+        Massothérapie douce et kinésithérapie (mobilisations)
       </v-card-subtitle>
 
+      <v-card-text class="custom-color-green--text px-sm-15">
+        <div class="mb-6">
+          <ul class="mb-3">
+            <li>
+              <span class="font-weight-bold">Massage sur table</span> (en
+              clinique ou à mon bureau) combinant des techniques de massage
+              suédois, tissus profonds et thaïlandais sur table.
+            </li>
+          </ul>
+          <v-card rounded class="mx-sm-15">
+            <v-card-text
+              class="custom-color-green--text custom-color-yellow text-center font-weight-bold"
+            >
+              L’objectif est de favoriser le relâchement des tensions et de
+              promouvoir un état de détente.
+            </v-card-text>
+          </v-card>
+        </div>
+
+        <div class="my-5">
+          <ul class="mb-3">
+            <li>
+              <b>Pour les personnes en perte d’autonomie</b> : massages de
+              confort dans une <u>installation adaptée</u> (dans votre fauteuil,
+              une chaise longue, etc.), alliés à des mobilisations douces -
+              <i
+                >des mouvements guidés de vos bras, vos jambes ou vos
+                articulations</i
+              >
+              - visant à préserver la souplesse, encourager le mouvement et
+              relâcher les tensions.
+            </li>
+          </ul>
+          <v-card rounded class="mx-sm-15">
+            <v-card-text
+              class="custom-color-green--text custom-color-yellow text-center font-weight-bold"
+            >
+              Le but est de préserver l’autonomie de mouvement le plus longtemps
+              possible.
+            </v-card-text>
+          </v-card>
+        </div>
+      </v-card-text>
+    </v-card>
+
+    <v-card class="custom-color-light-grey mt-10">
+      <v-card-title
+        class="justify-center custom-color-green mx-5 mx-sm-15 white--text font-weight-bold card-header rounded py-2"
+      >
+        Tarifs
+      </v-card-title>
+
       <v-card-text class="custom-color-green--text text-center">
-        <p class="text-decoration-underline">
-          Rendez-vous de 60 minutes uniquement : 85$
-        </p>
-        <p>
-          Mise à jour tarifaire au 1er mars 2026 : le soin passera à
-          <span class="font-weight-bold">90 $</span>
-        </p>
+        <v-card class="mx-sm-15 my-5">
+          <v-card-title
+            class="custom-color-green--text text-center justify-center font-weight-bold mt-1 font-italic"
+          >
+            Massage traditionnel sur table
+          </v-card-title>
+
+          <v-card-text class="custom-color-green--text pt-0">
+            <v-simple-table class="rates-table">
+              <template #default>
+                <thead>
+                  <tr>
+                    <th class="text-center">Durée</th>
+                    <th class="text-left">Description</th>
+                    <th class="text-right">Tarif</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="font-weight-bold text-no-wrap">60 min</td>
+                    <td class="text-left">
+                      Massage sur table traditionnelle en clinique
+                      (Physiothérapie France Roy) ou à mon bureau à Clermont.
+                    </td>
+                    <td class="text-right font-weight-bold text-no-wrap">
+                      90 $
+                    </td>
+                  </tr>
+                </tbody>
+              </template>
+            </v-simple-table>
+          </v-card-text>
+        </v-card>
+
+        <v-card class="mx-sm-15 my-sm-5">
+          <v-card-title
+            class="custom-color-green--text text-center justify-center font-weight-bold mt-1 font-italic"
+          >
+            Massage adapté à domicile – approche centrée sur l'humain
+          </v-card-title>
+
+          <v-card-text class="custom-color-green--text pt-0">
+            <v-simple-table class="rates-table">
+              <template #default>
+                <thead>
+                  <tr>
+                    <th class="text-center">Durée</th>
+                    <th class="text-left">Description</th>
+                    <th class="text-right">Tarif</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="font-weight-bold text-no-wrap">15-20 min</td>
+                    <td class="text-left">
+                      Un premier pas tout en douceur, pour apprivoiser le
+                      toucher à votre rythme.
+                    </td>
+                    <td class="text-right font-weight-bold text-no-wrap">
+                      35 $
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="font-weight-bold text-no-wrap">30 min</td>
+                    <td class="text-left">
+                      Un moment de présence et de détente, là où vous en êtes
+                      aujourd’hui.
+                    </td>
+                    <td class="text-right font-weight-bold text-no-wrap">
+                      45 $
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="font-weight-bold text-no-wrap">45 min</td>
+                    <td class="text-left">
+                      Du temps pour vraiment prendre soin de vous, sans se
+                      presser.
+                    </td>
+                    <td class="text-right font-weight-bold text-no-wrap">
+                      65 $
+                    </td>
+                  </tr>
+                  <tr>
+                    <td class="font-weight-bold text-no-wrap">60 min</td>
+                    <td class="text-left">
+                      Une heure entière pour s’abandonner, laisser le corps se
+                      relâcher pleinement.
+                    </td>
+                    <td class="text-right font-weight-bold text-no-wrap">
+                      80 $
+                    </td>
+                  </tr>
+                </tbody>
+              </template>
+            </v-simple-table>
+          </v-card-text>
+
+          <v-card-text class="pt-0">
+            <v-card rounded class="mx-sm-15">
+              <v-card-text
+                class="custom-color-green--text custom-color-yellow text-center"
+              >
+                <p class="font-weight-bold mb-3">
+                  Frais de déplacement — s’ajoutent au tarif de la séance à
+                  domicile
+                </p>
+                <p class="mb-1">
+                  <span class="font-weight-bold">10 $</span> - Clermont,
+                  St-Agnès, Pointe-au-Pic, Cap-à-l’Aigle
+                </p>
+                <p class="mb-1">
+                  <span class="font-weight-bold">20 $</span> - St-Fidèle,
+                  St-Hilarion, Notre-Dame-des-Monts, St-Aimé-des-Lacs
+                </p>
+                <p class="mb-0">
+                  <span class="font-weight-bold">30 $</span> - Baie-Saint-Paul,
+                  St-Siméon, Les Éboulements, St-Irénée
+                </p>
+              </v-card-text>
+            </v-card>
+          </v-card-text>
+        </v-card>
+
         <p class="font-italic">
           Reçus disponibles en massothérapie, kinésithérapie et orthothérapie
           pour fins d’assurances
@@ -141,6 +306,53 @@
           </v-card-actions>
         </v-card>
       </v-col>
+
+      <v-col cols="12" sm="6" class="mx-auto">
+        <v-card class="custom-color-light-grey mt-5 mt-sm-10">
+          <v-card-title
+            class="justify-center custom-color-green mx-5 mx-sm-15 white--text font-weight-bold card-header rounded py-2"
+          >
+            À domicile - sur demande
+          </v-card-title>
+
+          <v-card-text class="custom-color-green--text text-center mt-1">
+            <p>
+              Offert uniquement pour les personnes en perte d’autonomie ne
+              pouvant recevoir un massage sur une table traditionnelle et leurs
+              proches aidants.
+            </p>
+          </v-card-text>
+
+          <v-card-actions
+            class="custom-color-green--text justify-center text-center pb-5"
+          >
+            <div>
+              Écrivez-moi via :
+              <br />
+              <ul class="contact text-left ml-sm-5">
+                <li>
+                  Facebook Messenger :
+                  <a
+                    class="text-decoration-underline"
+                    href="https://www.facebook.com/virginiedang.massotherapeute"
+                    target="_blank"
+                    >facebook.com/virginiedang.massotherapeute</a
+                  >
+                </li>
+                <li>
+                  Par courriel :
+                  <a
+                    class="text-decoration-underline"
+                    href="mailto:virginiedang.massotherapeute@gmail.com"
+                    target="_blank"
+                    >virginiedang.massotherapeute@gmail.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </v-card-actions>
+        </v-card>
+      </v-col>
     </v-row>
   </div>
 </template>
@@ -169,9 +381,30 @@ address {
   top: -1.5rem;
 }
 
+.rates-table.v-data-table {
+  background-color: transparent;
+}
+
+.rates-table.v-data-table >>> th {
+  color: #45818e !important;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+}
+
+.rates-table.v-data-table >>> td {
+  color: #45818e;
+  vertical-align: middle;
+  white-space: normal;
+}
+
 @media only screen and (min-width: 600px) {
   .map {
     margin-top: 2.5rem;
   }
+}
+ul.contact li {
+  word-break: break-all;
 }
 </style>

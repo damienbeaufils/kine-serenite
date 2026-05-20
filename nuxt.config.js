@@ -110,7 +110,7 @@ export default {
       light: true,
       themes: {
         light: {
-          'custom-color-pink': '#f8e5e5',
+          'custom-color-yellow': '#fada93',
           'custom-color-green': '#45818E',
           'custom-color-grey': '#999999',
           'custom-color-light-grey': '#EEEEEE',

@@ -110,7 +110,7 @@
 
           <v-card rounded>
             <v-card-text
-              class="custom-color-green--text custom-color-pink text-subtitle-1 font-weight-bold text-center"
+              class="custom-color-green--text custom-color-yellow text-subtitle-1 font-weight-bold text-center"
             >
               <u>Le ressenti de ce soin :</u> on rentre petit à petit dans vos
               tissus, tout en <b>douceur et profondeur</b>. Je vais « peser »
@@ -241,7 +241,7 @@
           <v-btn
             href="https://www.gorendezvous.com/virginiedang"
             target="_blank"
-            class="custom-color-pink custom-color-green--text my-3 pa-7 px-sm-15 font-weight-bold text-sm-h6 text-subtitle-1"
+            class="custom-color-yellow custom-color-green--text my-3 pa-7 px-sm-15 font-weight-bold text-sm-h6 text-subtitle-1"
           >
             Prendre rendez-vous
           </v-btn>
