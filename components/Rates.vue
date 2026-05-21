@@ -4,56 +4,61 @@
       <v-card-title
         class="justify-center custom-color-green mx-5 mx-sm-15 white--text font-weight-bold card-header rounded py-2"
       >
-        Spécialisation
+        Les types de soin offerts
       </v-card-title>
 
-      <v-card-subtitle
-        class="custom-color-green--text text-center font-weight-bold mt-1 text-decoration-underline"
-      >
-        Massothérapie douce et kinésithérapie (mobilisations)
-      </v-card-subtitle>
-
       <v-card-text class="custom-color-green--text px-sm-15">
-        <div class="mb-6">
-          <ul class="mb-3">
-            <li>
-              <span class="font-weight-bold">Massage sur table</span> (en
-              clinique ou à mon bureau) combinant des techniques de massage
-              suédois, tissus profonds et thaïlandais sur table.
-            </li>
-          </ul>
-          <v-card rounded class="mx-sm-15">
+        <div class="mb-6 mx-sm-5">
+          <v-card rounded>
             <v-card-text
-              class="custom-color-green--text custom-color-yellow text-center font-weight-bold"
+              class="custom-color-green--text custom-color-yellow text-center font-weight-bold py-3 mb-3"
             >
-              L’objectif est de favoriser le relâchement des tensions et de
-              promouvoir un état de détente.
+              Massage professionnel réalisé sur table de massage
             </v-card-text>
           </v-card>
+          <p>
+            À la clinique de Physiothérapie France Roy ou à mon bureau à
+            Clermont.
+            <br />
+            C’est un soin combinant des techniques de massage suédois, tissus
+            profonds et thaïlandais sur table.
+          </p>
+          <p class="font-weight-bold">
+            L’objectif est de favoriser le relâchement des tensions et de
+            promouvoir un état de détente.
+          </p>
         </div>
 
-        <div class="my-5">
-          <ul class="mb-3">
-            <li>
-              <b>Pour les personnes en perte d’autonomie</b> : massages de
-              confort dans une <u>installation adaptée</u> (dans votre fauteuil,
-              une chaise longue, etc.), alliés à des mobilisations douces -
-              <i
-                >des mouvements guidés de vos bras, vos jambes ou vos
-                articulations</i
-              >
-              - visant à préserver la souplesse, encourager le mouvement et
-              relâcher les tensions.
-            </li>
-          </ul>
-          <v-card rounded class="mx-sm-15">
+        <div class="my-5 mx-sm-5">
+          <v-card rounded>
             <v-card-text
-              class="custom-color-green--text custom-color-yellow text-center font-weight-bold"
+              class="custom-color-green--text custom-color-yellow text-center font-weight-bold py-3 mb-3"
             >
-              Le but est de préserver l’autonomie de mouvement le plus longtemps
-              possible.
+              Massage de confort adapté aux personnes en perte d’autonomie,
+              offert à domicile, en CHSLD ou à l’hôpital -<br
+                class="hidden-md-and-down"
+              />
+              <i>ce soin ne se donne pas sur une table de massage</i>
             </v-card-text>
           </v-card>
+          <p>
+            C’est un soin de confort dans une <u>installation adaptée</u> (dans
+            votre fauteuil, une chaise longue, etc.), alliés à des mobilisations
+            douces - <i>des mouvements guidés des bras, des jambes</i> - visant
+            à préserver la souplesse, encourager le mouvement et relâcher les
+            tensions.
+          </p>
+          <p class="font-weight-bold">
+            Le but est surtout de vous déposer et de vous reconnecter avec
+            vous-même, juste le temps du soin.
+          </p>
+          <p>
+            Plus de détail en cliquant ici :&nbsp;<nuxt-link
+              class="text-decoration-underline font-weight-bold"
+              to="/soins/massage-de-repit/"
+              >Massage de répit</nuxt-link
+            >
+          </p>
         </div>
       </v-card-text>
     </v-card>
@@ -70,7 +75,15 @@
           <v-card-title
             class="custom-color-green--text text-center justify-center font-weight-bold mt-1 font-italic"
           >
-            Massage traditionnel sur table
+            <div>
+              Massage professionnel réalisé sur table de massage<br
+                class="hidden-md-and-down"
+              />
+              <small class="red--text"
+                >(je ne prends plus de nouveaux clients jusqu’à nouvel
+                ordre)</small
+              >
+            </div>
           </v-card-title>
 
           <v-card-text class="custom-color-green--text pt-0">
@@ -87,8 +100,10 @@
                   <tr>
                     <td class="font-weight-bold text-no-wrap">60 min</td>
                     <td class="text-left">
-                      Massage sur table traditionnelle en clinique
-                      (Physiothérapie France Roy) ou à mon bureau à Clermont.
+                      Massage sur table où vous êtes confortablement allongé sur
+                      le ventre puis sur le dos tout au long de la séance - à la
+                      clinique de Physiothérapie France Roy ou à mon bureau à
+                      Clermont.
                     </td>
                     <td class="text-right font-weight-bold text-no-wrap">
                       90 $
@@ -164,14 +179,9 @@
           </v-card-text>
 
           <v-card-text class="pt-0">
-            <v-card rounded class="mx-sm-15">
-              <v-card-text
-                class="custom-color-green--text custom-color-yellow text-center"
-              >
-                <p class="font-weight-bold mb-3">
-                  Frais de déplacement — s’ajoutent au tarif de la séance à
-                  domicile
-                </p>
+            <v-card rounded flat class="mx-sm-5">
+              <v-card-text class="custom-color-green--text text-left">
+                <p class="font-weight-bold mb-1">Frais de déplacement en sus</p>
                 <p class="mb-1">
                   <span class="font-weight-bold">10 $</span> - Clermont,
                   St-Agnès, Pointe-au-Pic, Cap-à-l’Aigle
@@ -189,7 +199,7 @@
           </v-card-text>
         </v-card>
 
-        <p class="font-italic">
+        <p class="font-italic mt-3 mt-sm-0">
           Reçus disponibles en massothérapie, kinésithérapie et orthothérapie
           pour fins d’assurances
         </p>
@@ -310,9 +320,10 @@
       <v-col cols="12" sm="6" class="mx-auto">
         <v-card class="custom-color-light-grey mt-5 mt-sm-10">
           <v-card-title
-            class="justify-center custom-color-green mx-5 mx-sm-15 white--text font-weight-bold card-header rounded py-2"
+            class="justify-center text-center custom-color-green mx-5 mx-sm-15 white--text font-weight-bold card-header rounded py-2"
           >
-            À domicile - sur demande
+            À domicile / en CHSLD / à l’hôpital -
+            <br class="hidden-md-and-down" />sur demande
           </v-card-title>
 
           <v-card-text class="custom-color-green--text text-center mt-1">
@@ -327,8 +338,7 @@
             class="custom-color-green--text justify-center text-center pb-5"
           >
             <div>
-              Écrivez-moi via :
-              <br />
+              <p class="font-weight-bold mb-2">Écrivez-moi via :</p>
               <ul class="contact text-left ml-sm-5">
                 <li>
                   Facebook Messenger :
@@ -346,6 +356,15 @@
                     href="mailto:virginiedang.massotherapeute@gmail.com"
                     target="_blank"
                     >virginiedang.massotherapeute@gmail.com</a
+                  >
+                </li>
+                <li>
+                  Par téléphone (laissez-moi un message vocal) :
+                  <a
+                    class="text-decoration-underline"
+                    href="tel:4187901294"
+                    target="_blank"
+                    >(418) 790-1294</a
                   >
                 </li>
               </ul>

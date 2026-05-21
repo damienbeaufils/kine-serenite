@@ -236,16 +236,6 @@
             </ul>
           </small>
         </v-col>
-
-        <v-col cols="12" class="text-center">
-          <v-btn
-            href="https://www.gorendezvous.com/virginiedang"
-            target="_blank"
-            class="custom-color-yellow custom-color-green--text my-3 pa-7 px-sm-15 font-weight-bold text-sm-h6 text-subtitle-1"
-          >
-            Prendre rendez-vous
-          </v-btn>
-        </v-col>
       </v-row>
     </v-card-text>
   </v-card>

@@ -5,7 +5,7 @@
     >
       <h1 class="text-h5 text-sm-h4 font-weight-bold">
         Massage de répit (pour personnes en perte d’autonomie) - Uniquement à
-        domicile
+        domicile / en CHSLD / à l’hôpital
       </h1>
     </v-card-title>
 
@@ -17,9 +17,8 @@
           </h2>
 
           <p>
-            Dans le cadre du soin à domicile, il est offert uniquement pour les
-            personnes ne pouvant s’installer sur une table traditionnelle de
-            massage et leurs proches aidants.
+            Il est offert uniquement pour les personnes ne pouvant s’installer
+            sur une table traditionnelle de massage et leurs proches aidants.
           </p>
 
           <p>
@@ -90,16 +89,6 @@
             :aspect-ratio="1920 / 1280"
           ></v-img>
         </v-col>
-
-        <v-col cols="12" class="text-center order-3 order-sm-0">
-          <v-btn
-            href="https://www.gorendezvous.com/virginiedang"
-            target="_blank"
-            class="custom-color-yellow custom-color-green--text my-3 pa-7 px-sm-15 font-weight-bold text-sm-h6 text-subtitle-1"
-          >
-            Prendre rendez-vous
-          </v-btn>
-        </v-col>
       </v-row>
     </v-card-text>
   </v-card>
@@ -116,7 +105,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Qu’est-ce que le massage de répit ? Pour qui ? Prise de rendez-vous pour un massage de répit (pour personnes en perte d’autonomie).',
+            'Qu’est-ce que le massage de répit ? Pour qui ? Prise de rendez-vous pour un massage de répit (pour personnes en perte d’autonomie). Uniquement à domicile / en CHSLD / à l’hôpital.',
         },
       ],
       link: [

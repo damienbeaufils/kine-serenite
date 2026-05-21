@@ -38,18 +38,6 @@
                 >.
               </p>
 
-              <p>
-                Mes soins se caractérisent par des
-                <b>massages délicats et adaptés</b> alliés à des
-                <b>mobilisations douces</b> - des mouvements guidés de vos bras,
-                vos jambes ou vos articulations - visant à préserver la
-                souplesse, encourager le mouvement et relâcher les tensions.
-              </p>
-              <p>
-                Le but est de préserver votre autonomie de mouvement le plus
-                longtemps possible et de vous déposer, juste le temps du soin.
-              </p>
-
               <h3 class="custom-color-green--text my-5">
                 > Quelle est ma mission ?
               </h3>

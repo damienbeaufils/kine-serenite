@@ -35,7 +35,9 @@
                   :aspect-ratio="1920 / 1280"
                 ></v-img>
 
-                <h3 class="mt-2">Massage de répit<br />(à domicile)</h3>
+                <h3 class="mt-2">
+                  Massage de répit<br />(à domicile / CHSLD / hôpital)
+                </h3>
               </v-card-text>
             </v-card>
           </v-hover>
