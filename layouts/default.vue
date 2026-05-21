@@ -11,6 +11,5 @@
       </v-container>
     </v-main>
     <Footer />
-    <FacebookChat />
   </v-app>
 </template>
