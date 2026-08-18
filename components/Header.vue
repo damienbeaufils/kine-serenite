@@ -1,10 +1,11 @@
 <template>
   <v-app-bar flat color="white" height="100">
-    <nuxt-link to="/" style="margin-left: -3em;">
+    <nuxt-link to="/" style="margin-left: -3em">
       <v-img
         src="/img/virginie_dang_massotherapeute_logo_2026.png"
         max-height="120"
         contain
+        eager
       ></v-img>
     </nuxt-link>
 
