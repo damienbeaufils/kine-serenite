@@ -140,7 +140,7 @@
                       toucher à votre rythme.
                     </td>
                     <td class="text-right font-weight-bold text-no-wrap">
-                      35 $
+                      40 $
                     </td>
                   </tr>
                   <tr>
@@ -150,7 +150,7 @@
                       aujourd’hui.
                     </td>
                     <td class="text-right font-weight-bold text-no-wrap">
-                      45 $
+                      60 $
                     </td>
                   </tr>
                   <tr>
@@ -160,7 +160,7 @@
                       presser.
                     </td>
                     <td class="text-right font-weight-bold text-no-wrap">
-                      65 $
+                      80 $
                     </td>
                   </tr>
                   <tr>
@@ -170,7 +170,7 @@
                       relâcher pleinement.
                     </td>
                     <td class="text-right font-weight-bold text-no-wrap">
-                      80 $
+                      95 $
                     </td>
                   </tr>
                 </tbody>
