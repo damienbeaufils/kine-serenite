@@ -1,24 +1,12 @@
 <template>
   <v-app-bar flat color="white" height="100">
-    <nuxt-link to="/">
+    <nuxt-link to="/" style="margin-left: -3em;">
       <v-img
-        src="/img/virginie_dang_massotherapeute_logo.png"
-        max-width="90"
+        src="/img/virginie_dang_massotherapeute_logo_2026.svg"
+        max-height="120"
         contain
       ></v-img>
     </nuxt-link>
-
-    <div class="ml-5">
-      <nuxt-link to="/">
-        <span class="custom-color-yellow--text font-weight-bold text-h5"
-          >Virginie Dang</span
-        >
-        <br />
-        <span class="custom-color-green--text text-body-1"
-          >Massothérapeute,<br />Kinésithérapeute,<br />Orthothérapeute</span
-        >
-      </nuxt-link>
-    </div>
 
     <v-spacer></v-spacer>
 
