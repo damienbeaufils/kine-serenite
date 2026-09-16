@@ -150,7 +150,7 @@
                       aujourd’hui.
                     </td>
                     <td class="text-right font-weight-bold text-no-wrap">
-                      60 $
+                      55 $
                     </td>
                   </tr>
                   <tr>
@@ -170,7 +170,7 @@
                       relâcher pleinement.
                     </td>
                     <td class="text-right font-weight-bold text-no-wrap">
-                      95 $
+                      110 $
                     </td>
                   </tr>
                 </tbody>
