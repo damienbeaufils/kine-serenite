@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/soins/massage-de-repit", {data:[{}],fetch:{},mutations:void 0});

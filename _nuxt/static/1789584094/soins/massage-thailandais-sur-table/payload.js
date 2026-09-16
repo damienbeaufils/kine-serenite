@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/soins/massage-thailandais-sur-table", {data:[{}],fetch:{},mutations:void 0});
